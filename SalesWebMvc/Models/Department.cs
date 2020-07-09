@@ -10,7 +10,7 @@ namespace SalesWebMvc.Models
         public string Name { get; set; }
         public ICollection<Seller> Sellers { get; set; } = new List<Seller>();
 
-        Department() 
+        public Department() 
         {
         }
 
